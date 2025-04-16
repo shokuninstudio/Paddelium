@@ -4,24 +4,28 @@ An endless level take on the classics Pong and Arkanoid with power-ups, retro-st
 
 [![temp-Imagela-Ek8v.avif](https://i.postimg.cc/Hsdfsjxp/temp-Imagela-Ek8v.avif)](https://postimg.cc/G9gMXLGN)
 
-**Objective**
+## Objective
+
 Clear all bricks, make your opponent miss the ball, or hit your opponent with the red laser to win a round and an extra life.
 
-**Power-ups**
+## Power-ups
+
 Red Bricks: Grants you 3 red laser shots to blast bricks and your opponent.
 
 Blue Bricks: Grants you a blue stun laser to stun your opponent for 5 seconds.
 
 Orange Bricks: Stretches your paddle 2X for 30 seconds.
 
-**Scoring**
+## Scoring
+
 Win a round to gain a life (max 5).
 
 Lose a round to lose a life.
 
 Game over when all lives are lost.
 
-**Controls**
+## Control
+
 Up Arrow: Move paddle up.
 
 Down Arrow: Move paddle down.
