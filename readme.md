@@ -2,6 +2,8 @@
 
 An endless level take on the classics Pong and Arkanoid with power-ups, retro-styled graphics, and Player 1 vs CPU two player gameplay.
 
+[![temp-Imagela-Ek8v.avif](https://i.postimg.cc/Hsdfsjxp/temp-Imagela-Ek8v.avif)](https://postimg.cc/G9gMXLGN)
+
 **Objective**
 Clear all bricks, make your opponent miss the ball, or hit your opponent with the red laser to win a round and an extra life.
 
