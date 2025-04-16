@@ -24,7 +24,7 @@ Lose a round to lose a life.
 
 Game over when all lives are lost.
 
-## Control
+## Controls
 
 Up Arrow: Move paddle up.
 
