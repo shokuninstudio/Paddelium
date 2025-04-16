@@ -9,18 +9,25 @@ Clear all bricks, make your opponent miss the ball, or hit your opponent with th
 
 **Power-ups**
 Red Bricks: Grants you 3 red laser shots to blast bricks and your opponent.
+
 Blue Bricks: Grants you a blue stun laser to stun your opponent for 5 seconds.
+
 Orange Bricks: Stretches your paddle 2X for 30 seconds.
 
 **Scoring**
 Win a round to gain a life (max 5).
+
 Lose a round to lose a life.
+
 Game over when all lives are lost.
 
 **Controls**
 Up Arrow: Move paddle up.
+
 Down Arrow: Move paddle down.
+
 Space Bar: Serve ball / Fire laser.
+
 ESC: Pause game / View rules.
 
 ## Installation
