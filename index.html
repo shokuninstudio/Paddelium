@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PADDELIUM</title>
+    <!-- Add Google Fonts - Press Start 2P is a perfect 8-bit style font -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        #gameContainer {
+            position: relative;
+            width: 800px;
+            margin: 0 auto;
+        }
+        
+        #gameCanvas {
+            display: block;
+            margin: 0 auto;  /* Center the canvas */
+        }
+        
+        #gameOverMessage {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: 'PressStart2P', cursive;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            pointer-events: none;
+            z-index: 1000;
+            display: none;  /* Hide by default */
+            width: fit-content;  /* Only as wide as needed */
+            min-width: 300px;  /* Minimum width to prevent layout shifts */
+        }
+
+        .game-title {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .score-container {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0;
+        }
+
+        .lives-container {
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        .game-description {
+            font-family: 'PressStart2P', cursive;
+            font-size: 10px;
+            text-align: center;
+            margin-top: 200px;
+            line-height: 1.8;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="gameContainer">
+        <h1 class="game-title">PADDELIUM</h1>
+        <div class="score-container">
+            <div class="score">Player: <span id="playerScore">0</span></div>
+            <div class="score">Computer: <span id="computerScore">0</span></div>
+        </div>
+        <canvas id="gameCanvas"></canvas>
+        <div class="lives-container">
+            <div class="lives">Lives: <span id="playerLives">3</span></div>
+        </div>
+        <div class="game-description">
+            Controls: Use the arrow keys to move your paddle up and down. Space bar to fire. Esc to pause.<br><br>
+            Paddelium by Shokunin Studio ©  2025.
+        </div>
+        <div id="gameOverMessage"></div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html> 

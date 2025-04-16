@@ -1,0 +1,71 @@
+body {
+    background-color: #0b0b0b;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-title {
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-shadow: 4px 4px #ff00ff;
+}
+
+.score-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.score {
+    color: #fff;
+    font-size: 16px;
+    text-shadow: 2px 2px #0099ff;
+}
+
+#gameCanvas {
+    border: 2px solid #fff;
+}
+
+.lives-container {
+    margin-top: 10px;
+    align-self: flex-start;
+    width: 100%;
+}
+
+.lives {
+    color: #fff;
+    font-size: 16px;
+    text-shadow: 2px 2px #0099ff;
+    display: flex;
+    gap: 10px;
+}
+
+.life {
+    width: 20px;
+    height: 20px;
+    background-color: #ff0000;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    box-shadow: 0 0 5px #ff0000;
+}
+
+.game-over-message {
+    font-family: 'Press Start 2P', cursive;
+    color: #ff0000;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    min-height: 32px;
+    display: none;
+} 
