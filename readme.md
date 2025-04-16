@@ -18,10 +18,10 @@ Lose a round to lose a life.
 Game over when all lives are lost.
 
 **Controls**
-Up Arrow: Move paddle up
-Down Arrow: Move paddle down
-Space Bar: Serve ball / Fire laser
-ESC: Pause game / View rules
+Up Arrow: Move paddle up.
+Down Arrow: Move paddle down.
+Space Bar: Serve ball / Fire laser.
+ESC: Pause game / View rules.
 
 ## Installation
 
