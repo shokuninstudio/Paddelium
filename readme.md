@@ -25,11 +25,9 @@ ESC: Pause game / View rules
 
 ## Installation
 
-1. Clone the repository.
+1. Clone the repository/download the files.
 
-2. Navigate to the project directory.
-
-3. Open index.html in a modern web browser.
+2. Open index.html in a modern web browser.
 
 ## License
 
